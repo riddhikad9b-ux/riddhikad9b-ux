@@ -24,7 +24,7 @@ I am a 2nd Year B.Tech Biotechnology Student at Sathyabama based in Chennai, Ind
 | **[Plant-Meristem-Climate-Resilience](https://github.com/riddhikad9b-ux/Plant--Meristem---Climate-Resillience)** | Analytical modeling framework focused on climate-resilient crop traits and stress responses. | Data Analysis, Modeling |
 | **[Autonomous Bioluminescent Plant](https://github.com/riddhikad9b-ux/project2-autonomous-bioluminescent-plant)** | Systems modeling and computational prototyping project for synthetic biology applications. | Synthetic Biology, Python |
 | **[Advanced Bio-Spray Hair Oil Formulation](https://github.com/riddhikad9b-ux/Advanced-Bio-Spray-Hair-Oil-Formulation-Market-Pitch)** | Formulation science, biochemical parameter integration, and commercial prototyping market pitch. | Formulation Science, Analytics |
-
+| **[Comparative-Genomics-Stress-Resilient-Animals](https://github.com/riddhikad9b-ux/Comparative_Genomics_Stress_Resilient_Animals)** | Comparative genomics pipeline exploring tardigrade stress resilience (Dsup, CAHS1), sequence identity, and AlphaFold structural mapping. | Biopython, Python, Pandas, AlphaFold |
 ---
 
 ### **💻 Technical Stack & Skills**
