@@ -26,6 +26,8 @@ I am a 2nd Year B.Tech Biotechnology Student at Sathyabama based in Chennai, Ind
 | **[Advanced Bio-Spray Hair Oil Formulation](https://github.com/riddhikad9b-ux/Advanced-Bio-Spray-Hair-Oil-Formulation-Market-Pitch)** | Formulation science, biochemical parameter integration, and commercial prototyping market pitch. | Formulation Science, Analytics |
 | **[Comparative-Genomics-Stress-Resilient-Animals](https://github.com/riddhikad9b-ux/Comparative_Genomics_Stress_Resilient_Animals)** | Comparative genomics pipeline exploring tardigrade stress resilience (Dsup, CAHS1), sequence identity, and AlphaFold structural mapping. | Biopython, Python, Pandas, AlphaFold |
 | [ExtremoScan](https://github.com/riddhikad9b-ux/ExtremoScan) | Automated bioinformatics pipeline scanning extremophile proteins for electrostatic shielding clusters, structural motifs, and positional distribution (`positional_distribution_chart.png`). | Biopython, Python, Pandas, Matplotlib |
+| [Mars-Closed-Loop-Verification-Engine](https://github.com/riddhikad9b-ux/Mars-closed-loop-verification-engine) | Production-grade fail-closed verification & sovereign telemetry orchestration framework for BLSS. | Python, NumPy, Matplotlib, Jupyter |
+
 ---
 
 ### **💻 Technical Stack & Skills**
