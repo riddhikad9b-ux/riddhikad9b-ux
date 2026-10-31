@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Riddhika%20D&fontSize=60&fontColor=7ee8a8&desc=Computational%20Biotechnology%20%E2%80%A2%20Longevity%20%E2%80%A2%20Climate%20Resilience&descSize=16&descAlignY=72&animation=fadeIn" width="100%" />
+  <img src="./banner.svg" width="100%" alt="Riddhika D: Computational Biotechnology" />
 </p>
 
 <p align="center">
@@ -98,19 +98,7 @@ Sleep loss lowered *Cirbp* in **3 of 3** mouse brain datasets, from hippocampus 
 
 ---
 
-## 📈 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=riddhikad9b-ux&show_icons=true&hide_border=true&theme=transparent&title_color=2ea043&icon_color=2ea043" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riddhikad9b-ux&layout=compact&hide_border=true&theme=transparent&title_color=2ea043" />
-</p>
-
----
 
 <p align="center">
   <i>"Bridging biology and data to ask better questions about how life lasts."</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%" />
 </p>
