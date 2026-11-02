@@ -39,6 +39,8 @@ Sleep loss lowered *Cirbp* in **3 of 3** mouse brain datasets, from hippocampus 
 
 `Python` `Pandas` `SciPy` `GEOparse` `Meta-analysis`
 
+**Part 2 → [CIRBP-Evolution](https://github.com/riddhikad9b-ux/cirbp-evolution):** did long-lived mammals evolve a better CIRBP? Tested across **251 mammals**: no, the bowhead whale's version is whale-specific.
+
 </td>
 <td width="38%" align="center">
 
@@ -60,6 +62,7 @@ Sleep loss lowered *Cirbp* in **3 of 3** mouse brain datasets, from hippocampus 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
 | **[Sleep-CIRBP](https://github.com/riddhikad9b-ux/sleep-cirbp)** | Cross-dataset GEO re-analysis: sleep loss lowers the cold-inducible DNA-repair gene CIRBP in mouse brain. | Python, SciPy, GEOparse |
+| **[CIRBP-Evolution](https://github.com/riddhikad9b-ux/cirbp-evolution)** | Cross-mammal test (251 species): did long-lived mammals evolve a better CIRBP? Answer: no, the bowhead's version is whale-specific. | Python, NCBI Datasets, AnAge |
 | **[Aging-Clock-Checker](https://github.com/riddhikad9b-ux/aging-clock-checker)** | Compares epigenetic ageing clocks on the same samples. | Python, pyaging, Jupyter |
 | **[Project ExtremoScan](https://github.com/riddhikad9b-ux/Project-ExtremoScan)** | Multi-omics framework mapping apical hypoxia, G-protein stress hubs and DAL1 epigenetic timers in centenarian gymnosperms, for human cellular longevity. | Python, SciPy, Pandas, Biopython |
 | **[Comparative-Genomics-Stress-Resilient-Animals](https://github.com/riddhikad9b-ux/Comparative_Genomics_Stress_Resilient_Animals)** | Tardigrade stress-resilience genes (Dsup, CAHS1): sequence identity and AlphaFold structure mapping. | Biopython, Pandas, AlphaFold |
@@ -92,6 +95,7 @@ Sleep loss lowered *Cirbp* in **3 of 3** mouse brain datasets, from hippocampus 
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
   <img src="https://img.shields.io/badge/NCBI%20GEO-20639B?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/NCBI%20Datasets-1F5A96?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/AlphaFold-4285F4?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
