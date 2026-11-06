@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/riddhikad9b-ux">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=800&color=2EA043&center=true&vCenter=true&width=640&lines=B.Tech+Biotechnology+%40+Sathyabama%2C+Chennai;Transcriptomics+%E2%80%A2+Comparative+Genomics+%E2%80%A2+Longevity;Turning+public+datasets+into+testable+hypotheses" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=800&color=2EA043&center=true&vCenter=true&width=680&lines=B.Tech+Biotechnology+%40+Sathyabama%2C+Chennai;Transcriptomics+%E2%80%A2+Comparative+Genomics+%E2%80%A2+Longevity;Reproducible+re-analyses+with+pre-registered+controls;I+report+null+results%2C+not+just+the+wins" alt="Typing intro" />
   </a>
 </p>
 
@@ -18,75 +18,61 @@
 
 ## 🧬 About Me
 
-I'm a 2nd-year B.Tech Biotechnology student at Sathyabama, Chennai. I build open, reproducible pipelines that test biological ideas on public data:
+I'm a 2nd-year B.Tech Biotechnology student at Sathyabama, Chennai. I build **open, reproducible pipelines** that test biological ideas on public data — with pre-registered questions, expression-matched random-gene-set controls, FDR correction, and a positive control in every analysis.
 
-- 🌱 **Plants:** meristem longevity, stress resilience and climate-resilient crop traits.
-- 🧪 **Longevity:** what long-lived species (bowhead whales, tardigrades, centenarian trees) can teach us about human ageing.
-- 📊 **Methods:** transcriptomics, comparative genomics, meta-analysis and AlphaFold structure mapping.
+I report results honestly: most of these are **null or replication results**, and I say so. The goal is a clean, checkable method, not a headline.
+
+- 🌱 **Plant meristem longevity & stress resilience** (Ginkgo, rice, *Arabidopsis*)
+- 🧪 **Comparative longevity** — what public datasets do and don't show about ageing
+- 📊 **Methods** — transcriptomics, comparative genomics, meta-analysis, epigenetic clocks
 
 ---
 
-## ⭐ Featured Research
-
-<table>
-<tr>
-<td width="62%">
+## ⭐ Featured
 
 ### [Sleep-CIRBP](https://github.com/riddhikad9b-ux/sleep-cirbp)
-**Does sleep switch on the bowhead whale's DNA-repair protein in our brain?**
+**Does sleep loss lower the cold-inducible DNA-repair factor CIRBP in the brain?**
 
-Sleep loss lowered *Cirbp* in **3 of 3** mouse brain datasets, from hippocampus and cortex in 3 labs (pooled **p = 0.00016**). This supports a new temperature-gated model of sleep-dependent DNA repair.
+A cross-dataset re-analysis: in **3 of 3** independent mouse-brain datasets (hippocampus and cortex, 3 labs), *Cirbp* was lower after sleep loss than in rested controls (pooled **p = 0.00016**). Consistent with a temperature-gated view of sleep-dependent DNA repair.
 
-`Python` `Pandas` `SciPy` `GEOparse` `Meta-analysis`
-
-**Part 2 → [CIRBP-Evolution](https://github.com/riddhikad9b-ux/cirbp-evolution):** did long-lived mammals evolve a better CIRBP? Tested across **251 mammals**: no, the bowhead whale's version is whale-specific.
-
-**Part 3 → [Jellyfish-GTEx](https://github.com/riddhikad9b-ux/jellyfish-gtex):** do the immortal jellyfish's expanded genes fade with age in human tissues? Tested **22 genes × 46 tissues (971 donors)**: no age signal.
-
-</td>
-<td width="38%" align="center">
-
-| Dataset | *Cirbp* change |
+| Dataset | *Cirbp* change (log2) |
 |:--|:--:|
-| Hippocampus 1 | **−0.51** |
-| Hippocampus 2 | **−0.68** |
-| Cortex | **−1.06** |
+| Hippocampus 1 | −0.51 |
+| Hippocampus 2 | −0.68 |
+| Cortex | −1.06 |
 
-</td>
-</tr>
-</table>
+*Honest scope: this is a re-analysis of existing public data, not new wet-lab work. Archived on Zenodo with a DOI (link once minted).*
+
+`Python` `Pandas` `SciPy` `GEOparse` `meta-analysis`
 
 ---
 
 ## 🔬 Projects
 
-### Longevity and ageing
-| Project | What it does | Stack |
+### Longevity & ageing
+| Project | What it does | Result |
 | :--- | :--- | :--- |
-| **[Sleep-CIRBP](https://github.com/riddhikad9b-ux/sleep-cirbp)** | Cross-dataset GEO re-analysis: sleep loss lowers the cold-inducible DNA-repair gene CIRBP in mouse brain. | Python, SciPy, GEOparse |
-| **[CIRBP-Evolution](https://github.com/riddhikad9b-ux/cirbp-evolution)** | Cross-mammal test (251 species): did long-lived mammals evolve a better CIRBP? Answer: no, the bowhead's version is whale-specific. | Python, NCBI Datasets, AnAge |
-| **[Jellyfish-GTEx](https://github.com/riddhikad9b-ux/jellyfish-gtex)** | Do human versions of the immortal jellyfish's expanded genes decline with age? 22 genes × 46 GTEx tissues vs two matched controls. Answer: no age signal. | Python, GTEx, NumPy |
-| **[Aging-Clock-Checker](https://github.com/riddhikad9b-ux/aging-clock-checker)** | Compares epigenetic ageing clocks on the same samples. | Python, pyaging, Jupyter |
-| **[Project ExtremoScan](https://github.com/riddhikad9b-ux/Project-ExtremoScan)** | Multi-omics framework mapping apical hypoxia, G-protein stress hubs and DAL1 epigenetic timers in centenarian gymnosperms, for human cellular longevity. | Python, SciPy, Pandas, Biopython |
-| **[Comparative-Genomics-Stress-Resilient-Animals](https://github.com/riddhikad9b-ux/Comparative_Genomics_Stress_Resilient_Animals)** | Tardigrade stress-resilience genes (Dsup, CAHS1): sequence identity and AlphaFold structure mapping. | Biopython, Pandas, AlphaFold |
+| **[Sleep-CIRBP](https://github.com/riddhikad9b-ux/sleep-cirbp)** | Cross-dataset GEO re-analysis: sleep loss vs *Cirbp* in mouse brain. | **Positive** (3/3 datasets, p = 0.00016) |
+| **[CIRBP-Evolution](https://github.com/riddhikad9b-ux/cirbp-evolution)** | Did long-lived mammals evolve a "better" CIRBP? 251 mammals, family-clustered controls. | **Null** — no longevity signal |
+| **[Jellyfish-GTEx](https://github.com/riddhikad9b-ux/jellyfish-gtex)** | Do human orthologs of *Turritopsis* expanded genes decline with age? 22 genes × 46 GTEx tissues, 2 matched controls. | **Null** — no age signal |
+| **[Aging-Clock-Checker](https://github.com/riddhikad9b-ux/aging-clock-checker)** | Benchmarks published epigenetic clocks (pyaging) on the same public samples; handles clock-type and tissue correctly. | **Validation** (Horvath MAE ≈ 3 yr on blood) |
 
-### Plants and climate resilience
-| Project | What it does | Stack |
+### Plant meristem & climate resilience
+| Project | What it does | Result |
 | :--- | :--- | :--- |
-| **[Plant-Meristem-Longevity-Research](https://github.com/riddhikad9b-ux/Plant-Meristem-Longevity-Research-j)** | Pipeline evaluating plant meristem longevity and resilience. | Biopython, Python, NumPy |
-| **[Plant-Meristem-Climate-Resilience](https://github.com/riddhikad9b-ux/Plant--Meristem---Climate-Resillience)** | Modelling framework for climate-resilient crop traits and stress responses. | Data Analysis, Modelling |
-| **[Space-Botany-Plant-Meristem-Adaptation](https://github.com/riddhikad9b-ux/Space-Botany-Plant-Meristem-Adaptation-From-Earth-to-Extraterrestrial-Agriculture.ipynb)** | Transcriptomics pipeline on meristem gene expression under simulated microgravity. | Python, Pandas, SciPy, Matplotlib |
+| **[Plant-Meristem-Longevity (Ginkgo)](https://github.com/riddhikad9b-ux/Plant-Meristem-Longevity-Research-)** | miRNA age trends in 20/200/600-yr Ginkgo cambium (GSE119213), duplicate-merged, with a positive control. | **Replication** — miR397 ↓ with age (Wang 2020) |
+| **[Ginkgo-Stress-miRNA-Aging](https://github.com/riddhikad9b-ux/ginkgo-stress-mirna-aging)** | Do stress/defense miRNAs change with tree age? Same data, new pre-registered question. | **Null** (set p = 0.98; control passed) |
+| **[Plant-Meristem-Climate-Resilience (rice)](https://github.com/riddhikad9b-ux/Plant--Meristem---Climate-Resillience)** | Does the flood-tolerance gene SUB1A pause cell division in rice? GEO re-analysis with label checks. | **Null** for cell division (known biology confirmed) |
+| **[Space-Botany-Meristem](https://github.com/riddhikad9b-ux/space-botany-meristem)** | Do plant stem-cell genes respond to spaceflight? 8 independent NASA OSDR experiments. | **No consistent response** (incl. auxin lead) |
 
-### Synthetic biology, space and products
-| Project | What it does | Stack |
+### Methods & tools
+| Project | What it does | Notes |
 | :--- | :--- | :--- |
-| **[Autonomous Bioluminescent Plant](https://github.com/riddhikad9b-ux/project2-autonomous-bioluminescent-plant)** | Systems modelling and computational prototyping for synthetic biology. | Synthetic Biology, Python |
-| **[Mars-Closed-Loop-Verification-Engine](https://github.com/riddhikad9b-ux/Mars-closed-loop-verification-engine)** | Fail-closed verification and telemetry framework for bioregenerative life support (BLSS). | Python, NumPy, Matplotlib |
-| **[Advanced Bio-Spray Hair Oil Formulation](https://github.com/riddhikad9b-ux/Advanced-Bio-Spray-Hair-Oil-Formulation-Market-Pitch)** | Formulation science, biochemical parameters and a commercial market pitch. | Formulation Science, Analytics |
+| **[Mars-Closed-Loop-Verification-Engine](https://github.com/riddhikad9b-ux/Mars-closed-loop-verification-engine)** | Fail-closed data-consistency checker for closed-loop life-support data: element/charge balance + 12 validation gates. | Software demo, **23/23 self-tests**, simulated data |
 
 ---
 
-## 🛠️ Tools I Use
+## 🛠️ Tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -98,15 +84,13 @@ Sleep loss lowered *Cirbp* in **3 of 3** mouse brain datasets, from hippocampus 
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
   <img src="https://img.shields.io/badge/NCBI%20GEO-20639B?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/NCBI%20Datasets-1F5A96?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/GTEx-6A1B9A?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/AlphaFold-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/NASA%20OSDR-0B3D91?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
 
-
 <p align="center">
-  <i>"Bridging biology and data to ask better questions about how life lasts."</i>
+  <i>"Reproducible questions, honest answers — including when the answer is no."</i>
 </p>
