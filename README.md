@@ -33,6 +33,8 @@ I report results honestly: most of these are **null or replication results**, an
 ### [Sleep-CIRBP](https://github.com/riddhikad9b-ux/sleep-cirbp)
 **Does sleep loss lower the cold-inducible DNA-repair factor CIRBP in the brain?**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24030169.svg)](https://doi.org/10.5281/zenodo.24030169)
+
 A cross-dataset re-analysis: in **3 of 3** independent mouse-brain datasets (hippocampus and cortex, 3 labs), *Cirbp* was lower after sleep loss than in rested controls (pooled **p = 0.00016**). Consistent with a temperature-gated view of sleep-dependent DNA repair.
 
 | Dataset | *Cirbp* change (log2) |
@@ -41,7 +43,7 @@ A cross-dataset re-analysis: in **3 of 3** independent mouse-brain datasets (hip
 | Hippocampus 2 | −0.68 |
 | Cortex | −1.06 |
 
-*Honest scope: this is a re-analysis of existing public data, not new wet-lab work. Archived on Zenodo with a DOI (link once minted).*
+*Archived on Zenodo as a citable preprint (DOI: 10.5281/zenodo.24030169).*
 
 `Python` `Pandas` `SciPy` `GEOparse` `meta-analysis`
 
